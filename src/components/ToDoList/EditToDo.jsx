@@ -10,7 +10,7 @@ export default function EditToDoIcon({ setEditMode }) {
         setEditMode(true);
       }}
     >
-      <img src="/icons/edit.svg" alt="" className="w-4 h-4 cursor-pointer" style={styleFilter} />
+      <img src="/todolist/icons/edit.svg" alt="edit" className="w-4 h-4 cursor-pointer" style={styleFilter} />
     </div>
   );
 }

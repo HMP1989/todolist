@@ -7,7 +7,7 @@ export default function DeleteToDoIcon({todo}) {
 
   return (
     <div onClick={() => removeToDoHandler(todo.id)}>
-      <img src="/icons/trash.svg" alt="" className="cursor-pointer w-4 h-4" />
+      <img src="/todolist/icons/trash.svg" alt="trash" className="cursor-pointer w-4 h-4" />
     </div>
   );
 }
